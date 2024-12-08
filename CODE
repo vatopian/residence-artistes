@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Résidence des Échos Créatifs - Projet Artistique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>La Résidence des Échos Créatifs</h1>
+    <p>Un projet pour les artistes, par les artistes.</p>
+</header>
+
+<section id="about">
+    <h2>À propos du projet</h2>
+    <p>Ce projet est une résidence d'artistes de 1000m², construite en pierre, avec des espaces créatifs pour divers artistes et une attention particulière à l'écologie et à l'innovation.</p>
+    <img src="residence_image.jpg" alt="Maquette du projet">
+</section>
+
+<section id="fundraising">
+    <h2>Participez au financement en cryptomonnaie</h2>
+    <p>Nous lançons un appel à fonds pour réaliser ce projet. Soutenez-nous avec des dons en cryptomonnaie via la plateforme Fundraising for Crypto !</p>
+    
+    <!-- Widget Fundraising for Crypto -->
+    <div id="crypto-don-widget"></div>
+    
+    <button onclick="donateNow()">Faire un don maintenant</button>
+</section>
+
+<footer>
+    <p>&copy; 2024 La Résidence des Échos Créatifs | Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
